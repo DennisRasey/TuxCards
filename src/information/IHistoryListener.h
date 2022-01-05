@@ -21,7 +21,7 @@
 class IHistoryListener{
 public:
    virtual ~IHistoryListener(){};
-   
+
 
 
    /**

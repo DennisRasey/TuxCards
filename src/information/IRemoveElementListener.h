@@ -22,7 +22,7 @@ class CInformationElement;
 class IRemoveElementListener{
 public:
    virtual ~IRemoveElementListener(){};
-   
+
 
    /**
     * This method is called just before the information element 'pIE'
