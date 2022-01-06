@@ -1,2 +1,5 @@
 
 tuxcards
+.qmake.stash
+Makefile
+/output
