@@ -25,8 +25,10 @@
 #define  getIcon(x)  CIconManager::getInstance().getIcon(x)
 
 #include <QMessageBox>
+#include <QDrag>
 #include <QDragEnterEvent>
 #include "../CTuxCardsConfiguration.h"
+#include <QMimeData>
 
 #define CTREE_COLUMN_ZERO  0
 #define CTREE_AUTO_EXPAND_TIME 750

@@ -21,7 +21,6 @@
 #include <QFileInfo>
 #include <QPainter>
 #include <QDir>
-#include <QMimeSource>
 #include <QApplication>
 
 static QPixmap *static_pIconFolderLocked = 0;
