@@ -57,7 +57,7 @@ CIconSelectorItem::CIconSelectorItem( QListWidget* pParent, QFileInfo* pFI )
    {
       // set font to italic
       QFont f( font() );
-      f.setItalic( TRUE );
+      f.setItalic( true );
       setFont( f );
    }
 
@@ -83,7 +83,7 @@ bool CIconSelectorItem::isDir() const
 // -------------------------------------------------------------------------------
 {
    if ( !mpItemFileInfo )
-      return FALSE;
+      return false;
       
    return mpItemFileInfo->isDir();
 }
@@ -93,7 +93,7 @@ bool CIconSelectorItem::isLink() const
 // -------------------------------------------------------------------------------
 {
    if ( !mpItemFileInfo )
-      return FALSE;
+      return false;
       
    return mpItemFileInfo->isSymLink();
 }
